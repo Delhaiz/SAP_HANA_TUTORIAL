@@ -31,7 +31,8 @@
     "requires": {
       "db": {
         "kind": "hana-cloud"
-      }
+      },
+      "auth": "xsuaa"
     }
   },
   "sapux": [
