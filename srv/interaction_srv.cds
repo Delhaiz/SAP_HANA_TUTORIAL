@@ -12,6 +12,8 @@ entity Interactions_Header
 entity Interactions_Items
     as projection on  interactions.Interactions_Items;
 
+function sleep() returns Boolean;
+
 @readonly
 entity V_Interaction 
     as projection on V_INTERACTION;
